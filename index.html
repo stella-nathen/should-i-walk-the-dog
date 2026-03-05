@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Should I walk the dog?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <aside class="city-sidebar">
+            <h3>Quick Picks</h3>
+            <ul id="cityList">
+                <li>New York</li>
+                <li>London</li>
+                <li>Tokyo</li>
+                <li>Miami</li>
+                <li>Seattle</li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <h1>Should I walk the dog?</h1>
+
+            <div class="input-area">
+                <input type="text" id="cityInput" placeholder="Type a city...">
+                <button id="checkBtn">CHECK</button>
+            </div>
+
+            <div id="status">Waiting for input...</div>
+
+            <div id="resultBox" class="hidden">
+                <h2 id="result">---</h2>
+                <p id="reason"></p>
+                <div class="stats">
+                    Temp: <span id="tempDisp"></span> |
+                    Wind: <span id="windDisp"></span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
